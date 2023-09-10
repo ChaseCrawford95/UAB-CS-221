@@ -32,6 +32,7 @@ footer{
     font-size: .60em;
     font-style: italic;
     text-align: center;
+
 }
 #wrapper{
     width: 80%;
@@ -39,4 +40,3 @@ footer{
     margin-right: auto;
     margin-left: auto;
 }
-
