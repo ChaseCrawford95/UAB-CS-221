@@ -3,16 +3,24 @@ body{
     background-color: #d8d8d8;
 }
 h1{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     text-decoration: overline;
-    text-decoration-color: #04AA6D ;
+    text-decoration-color: #04AA6D;
 }
 h2{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #04AA6D;
 }
 h3{
-    color:#04AA6D
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#D45D00
 }
 #SideNav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,7 +28,7 @@ h3{
     height: 100%;
     position: fixed;
     overflow: auto;
-    background-color: #f1f1f1;
+    background-color: #3B6739 ;
 }
 
 li a{
@@ -32,12 +40,13 @@ li a{
 
 li a.active{
     background-color: #04AA6D;
-    color: white;
+    color: #D45D00;
 }
 
 li a:hover:not(.active){
-    background-color: #04AA6D;
-    color: white;
+    border-radius: 6.25%;
+    background-color: #D45D00;
+    color: #000000;
 }
 
 #intro_para{
@@ -46,12 +55,14 @@ li a:hover:not(.active){
 }
 
 #skills_list{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 10px;
 }
 
 #hobbies_list{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 10px;
@@ -75,6 +86,20 @@ li a:hover:not(.active){
     border-color: #04AA6D;
     background-color: #04AA6D;
     margin: 0;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:underline;
+    text-decoration-color: #D45D00;
+    color: #04AA6D;
+}
+#project_list li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #D45D00;
 }
 
 
