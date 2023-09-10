@@ -4,6 +4,11 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a{
+    color: black;
+    text-decoration-style: dashed;
+}
+
 header{
     color: #8C3826;
     background-color: #D2B48C;
