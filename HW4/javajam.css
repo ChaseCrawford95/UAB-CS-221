@@ -4,12 +4,15 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#header{
+header{
     color: #8C3826;
     background-color: #D2B48C;
     text-align: center;
 }
 h1{
     line-height: 200%;
+}
+h2{
+    color: #8C3826;
 }
 
