@@ -22,47 +22,16 @@ h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#D45D00
 }
-/* The side nav gets a special id so that it can be manipulated separately from the other list tags*/
-#SideNav {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 15%;
-    height: 100%;
-    position: fixed;
-    overflow: auto;
-    background-color: #3B6739 ;
-}
-/* from lines 39 to 55, This is the hover affects that you see on the side nav*/
-li a{
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-li a.active{
-    background-color: #04AA6D;
-    color: #D45D00;
-}
-
-li a:hover:not(.active){
-    border-radius: 6.25%;
-    background-color: #D45D00;
-    color: #000000;
-}
 
 /* This is the manipulation spot for the skills list on the About me page*/
-#skills_list{
+.skills #skills_list{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 10px;
 }
 /* This is the manipulation spot for the hobbies list on the About me page*/
-#hobbies_list{
+.hobbies #hobbies_list{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -70,7 +39,7 @@ li a:hover:not(.active){
 }
 
 /* This is the manipulation of the profile picture on the about me page*/
-#profile_picture{
+.profile_picture #profile_picture{
     border-radius: 6.25%;
     position: relative;
     top: -10px;
@@ -99,7 +68,7 @@ a{
     color: #04AA6D;
 /* This is the manipulation of project list on the Personal project page*/
 }
-#project_list li{
+.projects #project_list{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #D45D00;
 }
