@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    /* I wanted to go with this color of black because of its just the right type of black. Not too dark, not too bright*/
     background-color: #252525;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     display: flex;
@@ -11,7 +12,7 @@ body{
     align-items: center;
 
 }
-
+/* li and li::before will make it where the bullet points will be replaced with 8 pointed stars */
 li{
     list-style-type: none;
     padding-left: 0;
@@ -20,10 +21,11 @@ li::before{
     content: "\2738";
 
 }
+/* all anchor tags will be aquamarine */
 a{
     color: aquamarine;
 }
-
+/* .container and .skills_and_hobbies will make it where the content will be placed at the center of the screen */
 .container{
     display: flex;
     flex-direction: column;
@@ -34,6 +36,7 @@ a{
 }
 
 .header{
+    /* aquamarine was the choice of secondary color because it does so well under darker themes. It's a color that stands out because of its neon characteristic */
     color: aquamarine;
 }
 .header #h1{
@@ -57,6 +60,7 @@ a{
     margin-left: 10px;
 }
 
+/* .profile_picture and .profile_picture::before will change how the background of the profile picture will look. Currently it is in a crecent moon */
 .profile_picture{
     background-color: aquamarine;
     position: relative;
@@ -86,9 +90,11 @@ a{
     background-color: aquamarine;
     z-index: 2;
     border-radius: 25%;
+    /* This transition attribute makes it where when you hover over an item there will be a slow visual transition*/
     transition: all 0.3s ease 0.1s;
     margin: 20px;
 }
+/* This is how big the skills tag will get when you hover over it*/
 .skills:hover{
     transform: scale(1.1);
     font-size: large;
@@ -111,6 +117,7 @@ a{
     background-color: aquamarine;
     z-index: 2;
     border-radius: 25%;
+    /* This transition attribute makes it where when you hover over an item there will be a slow visual transition*/
     transition: all 0.3s ease 0.1s;
     margin: 20px;
     
@@ -125,6 +132,8 @@ a{
     grid-gap: 30px;
     font-size: small;
 }
+
+/* This is how big the hobbies tag will get when you hover over it*/
 .hobbies:hover{
     transform: scale(1.1);
     font-size: large;
@@ -135,6 +144,7 @@ a{
 }
 
 .bio{
+    /* This transition attribute makes it where when you hover over an item there will be a slow visual transition*/
     transition: all 0.3s ease 0.1s;
     font-size: medium;
     width: 830px;
@@ -145,7 +155,7 @@ a{
     margin: 20px;
     padding: 20px
 }
-
+/* This is how big the bio tag will get when you hover over it*/
 .bio:hover{
     transform: scale(1.1);
     font-size: large;
