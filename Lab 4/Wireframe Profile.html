@@ -8,19 +8,21 @@
 <!--This is the body of the page!-->
 <body>
     <!--This part makes it where main content will always be to the right of the side navigation-->
-    <div style="margin-left:15%;padding:1px 20px;height:1000px;">
-    <!--This is profile name-->    
-        <header>
-            <h1>Hi, I'm Chase Crawford</h1>
-            <h2>And I'm a Software Engineer!</h2>
-        </header>
+    <div class="container">
+    <!--This is profile name-->
+        <div class="header">    
+            <header>
+                <h1 id="h1">Hi, I'm Chase Crawford</h1>
+                <h2 id="h2">...And I'm a Software Engineer!</h2>
+            </header>
+        </div>
     
     <!--This is the profile picture and the dividing line between profile picture and content-->
         <div class="profile_picture">
             <img id="profile_picture" src="https://media.licdn.com/dms/image/C5603AQGaux-fyYYDsw/profile-displayphoto-shrink_800_800/0/1659988338200?e=1699488000&v=beta&t=e4GDxEtXMoIhsZ07IL7VwXmOOHGTkjzK92bYnnBZ-7o" alt="This Image not found">
         </div>
         <hr class="decorative-line">
-
+    <div class="skills_and_hobbies">
     <!--Skills section-->
         <div class="skills">
             <h3>Skills</h3>
@@ -72,9 +74,10 @@
                     <li>Film buff</li>
                     <li>Cooking</li>
                     <li>Gardening</li>
-                    <li>Personally owned Trebuchet!</li>
+                    <li>Trebuchet!</li>
                 </ul>
         </div>
+    </div>
 
     <!--Small Bio-->
         <div class="bio">
@@ -85,9 +88,11 @@
             I choose Computer Science, and I can conceptualize and compartmentalize the subject material. Kind of figures coming from the son of a civil engineer.</p><br><br><br>
             </div>
         </div>
+        
 
-        <div id="projects">
-            <h3>Portfolio of Personal Projects</h3>
+        <div class="projects">
+            <h2>Portfolio</h2>
+            <h4>All of these projects can be found on my GitHub account</h4>
             <ul id="project_list">
                 <li>Basic Calculator</li>
                 <p>This is a basic functioning calculator</p>
@@ -102,21 +107,31 @@
     <!--Footer section of the page is here this is mostly a reference page of the things I sourced to help make the website-->
         <footer>
             <div class="contact_info">
-                <h3>Phone Number</h3>
-                <p>(850)712-3300</p>
+                <div id="Phone">
+                    <p>Phone Number</p>
+                    <li>(850)712-3300</li>
+                </div>
 
-                <h3>Email</h3>
-                <p>Personal Email: <a href="mailto:chasecrawford95@gmail.com">chasecrawford95@gmail.com</a></p>
-                <p>College Email: <a href="mailto:cchase95@uab.edu">cchase95@uab.edu</a></p>
+                <div id="Email">
+                    <p>Email</p>
+                    <li> Personal Email: <a href="mailto:chasecrawford95@gmail.com">chasecrawford95@gmail.com</a></li>
+                    <li> College Email: <a href="mailto:cchase95@uab.edu">cchase95@uab.edu</a></li>
+                </div>
+                
+                <div id="GitHub">
+                    <p>GitHub</p>
+                    <li> <a href="https://github.com/ChaseCrawford95">ChaseCrawford95</a> </li>
+                </div>
 
-                <h3>GitHub</h3>
-                <a href="https://github.com/ChaseCrawford95">ChaseCrawford95</a>
+                <div id="Mailing">
+                    <p>Mailing Address</p>
+                    <li> 6913 Timber Trail Road, Leeds AL 35094</li>
+                </div>
 
-                <h3>Mailing Address</h3>
-                <p>6913 Timber Trail Road, Leeds AL 35094</p>
-
-                <h3>LinkedIn Profile</h3>
-                <a href="https://www.linkedin.com/in/chase-crawford-6511261a2/">Chase Crawford's LinkedIn Account</a>
+                <div id="LinkedIn">
+                    <p>LinkedIn Profile</p>
+                    <li> <a href="https://www.linkedin.com/in/chase-crawford-6511261a2/">Chase Crawford's LinkedIn Account</a></li>
+                </div>
                 <br><br>
             </div>
         </footer>
@@ -125,7 +140,6 @@
 
 </html>
 <!--Sources-->
-<!--Creation of the Menu Navigation Bar was in help from this website: https://www.w3schools.com/css/css_navbar.asp -->
-<!--W3Schools was in help with how to figure out positioning of sectors-->
+<!-- -->
 <!--W3Schools was in help with how to make lists be shown in matrix/grid format-->
 <!--W3Schools was in help with how to make a decorative line that divides Profile picture and profile content-->
