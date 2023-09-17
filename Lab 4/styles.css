@@ -23,6 +23,19 @@ h3{
     color:#D45D00
 }
 
+/* This will determine what the overall paragarph will look like*/
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* This will determine what the overall anchor tags will look like*/
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:underline;
+    text-decoration-color: #D45D00;
+    color: #04AA6D;
+}
+
+
 /* This is the manipulation spot for the skills list on the About me page*/
 .skills #skills_list{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -56,18 +69,8 @@ h3{
     background-color: #04AA6D;
     margin: 0;
 }
-/* This will determine what the overall paragarph will look like*/
-p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-/* This will determine what the overall anchor tags will look like*/
-a{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration:underline;
-    text-decoration-color: #D45D00;
-    color: #04AA6D;
+
 /* This is the manipulation of project list on the Personal project page*/
-}
 .projects #project_list{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #D45D00;
