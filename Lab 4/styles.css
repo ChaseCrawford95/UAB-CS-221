@@ -35,25 +35,9 @@ a{
     color: #04AA6D;
 }
 
-
-/* This is the manipulation spot for the skills list on the About me page*/
-.skills #skills_list{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 10px;
-}
-/* This is the manipulation spot for the hobbies list on the About me page*/
-.hobbies #hobbies_list{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 10px;
-}
-
 /* This is the manipulation of the profile picture on the about me page*/
 .profile_picture #profile_picture{
-    border-radius: 6.25%;
+    border-radius: 50%;
     position: relative;
     top: -10px;
     left: -10px;
@@ -70,15 +54,66 @@ a{
     margin: 0;
 }
 
+.skills{
+    width: 400px;
+    height: 600px;
+    background-color: blue;
+    z-index: 2;
+    border-radius: 25%;
+    float: left;
+    margin: 20px;
+}
+/* This is the manipulation spot for the skills list on the About me page*/
+.skills #skills_list{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    font-size: small;
+}
+
+.hobbies{
+    width: 400px;
+    height: 600px;
+    background-color: blue;
+    z-index: 2;
+    border-radius: 25%;
+    float: left;
+    margin: 20px;
+    position: relative;
+}
+
+/* This is the manipulation spot for the hobbies list on the About me page*/
+.hobbies #hobbies_list{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    font-size: small;
+}
+
+.bio{
+    font-size: small;
+    width: 830px;
+    height: 300px;
+    background-color: blue;
+    z-index: 2;
+    border-radius: 25%;
+    float: left;
+    margin: 20px;
+}
+.bio #bio_para{
+    font
+}
+
+
+
 /* This is the manipulation of project list on the Personal project page*/
 .projects #project_list{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #D45D00;
 }
-.skills {
-    position: relative;
-    
-}
+
 
 /* Sources */
 /* Creation of the Menu Navigation Bar was in help from this website: https://www.w3schools.com/css/css_navbar.asp *
