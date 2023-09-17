@@ -1,0 +1,115 @@
+/*This part deals with the body*/
+body{
+    margin: 0;
+    background-color: #d8d8d8;
+}
+/* Any h1 tag manipulation happens here*/
+h1{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-decoration: overline;
+    text-decoration-color: #04AA6D;
+}
+/* Any h3 tag manipulation happens here*/
+h2{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #04AA6D;
+}
+/* Any h4 tag manipulation happens here*/
+h3{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#D45D00
+}
+/* The side nav gets a special id so that it can be manipulated separately from the other list tags*/
+#SideNav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    background-color: #3B6739 ;
+}
+/* from lines 39 to 55, This is the hover affects that you see on the side nav*/
+li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active{
+    background-color: #04AA6D;
+    color: #D45D00;
+}
+
+li a:hover:not(.active){
+    border-radius: 6.25%;
+    background-color: #D45D00;
+    color: #000000;
+}
+
+/* This is the manipulation spot for the skills list on the About me page*/
+#skills_list{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+/* This is the manipulation spot for the hobbies list on the About me page*/
+#hobbies_list{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+/* This is the manipulation of the profile picture on the about me page*/
+#profile_picture{
+    border-radius: 6.25%;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 220px;
+    height: 220px;
+    margin-left: 10px;
+}
+/* This is the mainpulation of the divider line on the About me page*/
+.decorative-line{
+    
+    height: 2px;
+    border-color: #04AA6D;
+    background-color: #04AA6D;
+    margin: 0;
+}
+/* This will determine what the overall paragarph will look like*/
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* This will determine what the overall anchor tags will look like*/
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:underline;
+    text-decoration-color: #D45D00;
+    color: #04AA6D;
+/* This is the manipulation of project list on the Personal project page*/
+}
+#project_list li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #D45D00;
+}
+.skills {
+    position: relative;
+    
+}
+
+/* Sources */
+/* Creation of the Menu Navigation Bar was in help from this website: https://www.w3schools.com/css/css_navbar.asp *
+/* W3Schools was in help with how to figure out positioning of sectors */
+/* W3Schools was in help with how to make lists be shown in matrix/grid format
+/* W3Schools was in help with how to make a decorative line that divides Profile picture and profile content*/
