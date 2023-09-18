@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: #FFF1e8;
+    border-bottom: 5px solid black;
+    z-index: 100;
+}
+
+.Main_Content{
+    background-color: #D8DEEC;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid grey;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #CCB5FB;
+}
+p {
+    padding: 1em;
+  }
