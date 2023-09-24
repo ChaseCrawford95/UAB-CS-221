@@ -37,12 +37,10 @@ h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:darkmagenta
 }
-#header{
-    grid-column: 1 / span 2;
-    background-color: #3B6739;
-    color: white;
+header{
+    grid-column: 2 / span 2;
     padding: 10px;
-    text-align: center;
+    
 }
 /* The side nav gets a special id so that it can be manipulated separately from the other list tags*/
 #SideNav {
@@ -54,6 +52,7 @@ h3{
     height: 100%;
     grid-row-start: 1;
     grid-row-end: 10;
+    text-align: center;
 }
 
 #SideNav li{
@@ -65,14 +64,19 @@ h3{
     color: whitesmoke;
     padding: 10px 10px;
     text-decoration: none;
+    transition: all 0.3s ease 0.1s;
+    text-align: center;
 }
 #SideNav a.active{
     background-color: blueviolet;
 }
-#SideNav a:hover:not(.active){
+#SideNav a:hover{
     border-radius: 6.25%;
     background-color: blueviolet;
     color: whitesmoke;
+    transform: scale(1.2);
+    font-size: large;
+    
 }
 #content{
     grid-row: 2;
@@ -137,6 +141,12 @@ footer{
     grid-row: 5;
     bottom: 0;
     width: 100%;
+}
+input{
+    background-color: #d8d8d8;
+}
+textarea{
+    background-color: #d8d8d8;
 }
 
 

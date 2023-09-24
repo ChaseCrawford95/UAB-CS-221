@@ -28,9 +28,14 @@
             <h3>Phone Number</h3>
             <p>(850)712-3300</p>
 
-            <h3>Email</h3>
-            <p>Personal Email: <a href="mailto:chasecrawford95@gmail.com">chasecrawford95@gmail.com</a></p>
-            <p>College Email: <a href="mailto:cchase95@uab.edu">cchase95@uab.edu</a></p>
+            <form action="mailto:chasecrawford95@gmail.com" method="get" enctype="text/plain">
+                Subject:<br>
+                <input type="text" name="subject"><br>
+                Email:<br>
+                <input type="email" name="email"><br>
+                Message:<br>
+                <textarea name="body" rows="5" cols="30"></textarea><br>
+                <input type="submit" value="Send">
 
             <h3>GitHub</h3>
             <a href="https://github.com/ChaseCrawford95">ChaseCrawford95</a>
