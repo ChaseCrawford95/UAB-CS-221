@@ -1,7 +1,6 @@
 /*This part deals with the body*/
 * {
     margin: 0;
-
 }
 body{
     margin: 0;
@@ -103,8 +102,8 @@ header{
 #profile_picture{
     border-radius: 6.25%;
     position: relative;
-    top: -10px;
-    left: -10px;
+    grid-column: 1;
+    grid-row: 2;
     width: 220px;
     height: 220px;
     margin-left: 10px;
@@ -148,7 +147,6 @@ input{
 textarea{
     background-color: #d8d8d8;
 }
-
 
 /* Sources */
 /* Creation of the Menu Navigation Bar was in help from this website: https://www.w3schools.com/css/css_navbar.asp *
