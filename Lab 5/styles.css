@@ -8,50 +8,54 @@ h1{
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     text-decoration: overline;
-    text-decoration-color: #04AA6D;
+    text-decoration-color: blueviolet;
 }
 /* Any h3 tag manipulation happens here*/
 h2{
     font-size: x-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #04AA6D;
+    color: blueviolet;
 }
 /* Any h4 tag manipulation happens here*/
 h3{
     font-size: x-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:#D45D00
+    color:darkmagenta
 }
 /* The side nav gets a special id so that it can be manipulated separately from the other list tags*/
 #SideNav {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    display: grid;
+    grid-template-rows: auto; 
+    gap: 10px; 
+    width: 15%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: darkmagenta;
+    overflow: auto;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 15%;
-    height: 100%;
-    position: fixed;
-    overflow: auto;
-    background-color: #3B6739 ;
 }
-/* from lines 39 to 55, This is the hover affects that you see on the side nav*/
-li a{
+
+#SideNav li{
+    text-align: center;
+}
+#SideNav a{
     display: block;
-    color: #000;
-    padding: 8px 16px;
+    color: whitesmoke;
+    padding: 10px 10px;
     text-decoration: none;
 }
-
-li a.active{
-    background-color: #04AA6D;
-    color: #D45D00;
+#SideNav a.active{
+    background-color: blueviolet;
 }
-
-li a:hover:not(.active){
+#SideNav a:hover:not(.active){
     border-radius: 6.25%;
-    background-color: #D45D00;
-    color: #000000;
+    background-color: blueviolet;
+    color: whitesmoke;
 }
 
 /* This is the manipulation spot for the skills list on the About me page*/
@@ -83,8 +87,8 @@ li a:hover:not(.active){
 .decorative-line{
     
     height: 2px;
-    border-color: #04AA6D;
-    background-color: #04AA6D;
+    border-color: blueviolet;
+    background-color: blueviolet;
     margin: 0;
 }
 /* This will determine what the overall paragarph will look like*/
@@ -95,13 +99,13 @@ p{
 a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration:underline;
-    text-decoration-color: #D45D00;
-    color: #04AA6D;
+    text-decoration-color: darkmagenta;
+    color: blueviolet;
 /* This is the manipulation of project list on the Personal project page*/
 }
 #project_list li{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #D45D00;
+    color: darkmagenta;
 }
 
 
