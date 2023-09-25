@@ -46,7 +46,6 @@ header{
     grid-row: 2;
     grid-column: 1;
     background-color: darkmagenta;
-    overflow: auto;
     height: 100%;
     grid-row-start: 1;
     grid-row-end: 10;
