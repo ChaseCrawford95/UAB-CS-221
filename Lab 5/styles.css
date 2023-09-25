@@ -140,6 +140,7 @@ footer{
     grid-row: 5;
     bottom: 0;
     width: 100%;
+    font-size: x-small;
 }
 input{
     background-color: #d8d8d8;
