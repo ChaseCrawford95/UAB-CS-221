@@ -9,7 +9,7 @@ body{
 }
 .grid_container{
     display: grid;
-    grid-template-columns: 15% auto;
+    grid-template-columns: 15%;
     grid-template-rows: auto;
    
     background-color: #d8d8d8;
@@ -70,7 +70,7 @@ header{
     background-color: blueviolet;
 }
 #SideNav a:hover{
-    border-radius: 6.25%;
+    border-radius: 10px;
     background-color: blueviolet;
     color: whitesmoke;
     transform: scale(1.2);
@@ -100,7 +100,7 @@ header{
 
 /* This is the manipulation of the profile picture on the about me page*/
 #profile_picture{
-    border-radius: 6.25%;
+    border-radius: 10px;
     position: relative;
     grid-column: 1;
     grid-row: 2;
