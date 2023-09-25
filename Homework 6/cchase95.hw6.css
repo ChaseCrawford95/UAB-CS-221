@@ -32,7 +32,7 @@ body {
 }
 
 .grid_item1{
-    border-radius: 6.25%;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@ body {
     grid-row: span 1;
 }
 .grid_item2{
-    border-radius: 6.25%;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +56,7 @@ body {
     width: 100px;
 }
 .grid_item3{
-    border-radius: 6.25%;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +69,7 @@ body {
     width: 100px;
 }
 .grid_item4{
-    border-radius: 6.25%;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@ body {
     width: 100px;
 }
 .grid_item5{
-    border-radius: 6.25%;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +95,7 @@ body {
     width: 100px;
 }
 .grid_item6{
-    border-radius: 6.25%;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,7 +108,7 @@ body {
     width: 100px;
 }
 .grid_item7{
-    border-radius: 6.25%;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,7 +121,7 @@ body {
     width: 100px;
 }
 .grid_item8{
-    border-radius: 6.25%;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +134,7 @@ body {
     width: 100px;
 }
 .grid_item9{
-    border-radius: 6.25%;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,3 +146,6 @@ body {
     height: 100px;
     width: 100px;
 }
+/*Sources*/
+/**/
+/**/
