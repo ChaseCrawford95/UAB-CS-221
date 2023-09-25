@@ -133,3 +133,7 @@ body {
 /**/
 /*Lecture Slides and Code Examples from class was the biggest help with this assignment*/
 /* W3Schools was in help with how to use grids and flex formatting*/
+
+/*Notes*/
+/*There was a request to make one of the cells spill over all of one row. I have chosen cell item 1 to do this. If you were to remove lines 41 and 42, then the requested 3x3 square will be produced.
+I'm hoping that was what you guys wanted. */
