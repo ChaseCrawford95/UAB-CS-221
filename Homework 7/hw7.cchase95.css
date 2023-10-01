@@ -121,7 +121,7 @@ body{
     transform: translate(-50%, -50%);
     font-size: 24px; 
     color: whitesmoke; 
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(156, 0, 0, 0.4));
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .4));
     border-radius: 50%; 
     padding: 8px; 
 
@@ -169,7 +169,7 @@ body{
     transform: translate(-50%, -50%);
     font-size: 24px; 
     color: whitesmoke; 
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 139, 0.4));
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .4));
     border-radius: 50%; 
     padding: 8px; 
 
@@ -218,7 +218,7 @@ body{
     transform: translate(-50%, -50%);
     font-size: 24px; 
     color: whitesmoke; 
-    background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 215, 0, 0.4));
+    background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, .4));
     border-radius: 50%; 
     padding: 8px; 
 }
@@ -265,7 +265,7 @@ body{
     transform: translate(-50%, -50%);
     font-size: 24px; 
     color: whitesmoke; 
-    background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 140, 0, 0.4));
+    background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, .4));
     border-radius: 50%; 
     padding: 8px; 
 }
@@ -312,7 +312,7 @@ body{
     transform: translate(-50%, -50%);
     font-size: 24px; 
     color: whitesmoke; 
-    background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 0, 0.4));
+    background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, .4));
     border-radius: 50%; 
     padding: 8px; 
 }
