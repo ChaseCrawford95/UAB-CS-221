@@ -159,6 +159,34 @@ textarea{
     background-color: #d8d8d8;
 }
 
+@media  (max-width: 480px) {
+    *{
+        font-size: 16px;
+    }
+    #SideNav{
+        background-color: green;
+    }
+}
+
+@media   (max-width: 768px) {
+    *{
+        font-size: 16px;
+    }
+    #SideNav{
+        background-color: red;
+    }
+}
+
+@media  (max-width: 1024px) {
+    *{
+        font-size: 16px;
+    }
+    #SideNav{
+        background-color: blue;
+    }
+}
+
+
 /* Sources */
 /* Creation of the Menu Navigation Bar was in help from this website: https://www.w3schools.com/css/css_navbar.asp *
 /* W3Schools was in help with how to figure out positioning of sectors */
