@@ -39,3 +39,6 @@ function test(){
             break;
     }
 }
+// Sources
+// I wanted to figure out how to make a button be used to open up the prompt function. I got help from w3schools with this example: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_prompt
+// That same example also helped me figure out how to make a JavaScript file manipulate certain tags on the HTML file
