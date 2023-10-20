@@ -2,12 +2,14 @@ function test(){
     let input = prompt("Please enter a number");
     document.getElementById("GR").innerHTML = input
     switch(true){
-        case input ==="" || input === null || input.trim() === "":
-            document.getElementById("Grade").innerHTML = "Grade: " + input
+        case input === null || input.trim() === "":
+            document.getElementById("GR").innerHTML = "Invalid Input"
+            document.getElementById("Grade").innerHTML = "Grade: "
             document.getElementById("LetterGrade").innerHTML="Letter Grade: "
             document.getElementById("Reward").innerHTML="Reward: Nothing! Please put in a valid number"
         case isNaN(input):
-            document.getElementById("Grade").innerHTML = "Grade: " + input
+            document.getElementById("GR").innerHTML = "Invalid Input"
+            document.getElementById("Grade").innerHTML = "Grade: "
             document.getElementById("LetterGrade").innerHTML="Letter Grade: "
             document.getElementById("Reward").innerHTML="Reward: Nothing! Please put in a valid number"
             break;
