@@ -49,4 +49,4 @@ function test(){
 // Sources
 // I wanted to figure out how to make a button be used to open up the prompt function. I got help from w3schools with this example: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_prompt
 // That same example also helped me figure out how to make a JavaScript file manipulate certain tags on the HTML file
-// I had to figure out how to handle inputs that included words, letters, open blank spaces, and nothing inputted at all by the user. ChatGPT suggested I use isNaN and .trim() functions to handle open space and lettered inputs. 
+// I had to figure out how to handle inputs that included words, letters, open blank spaces, and nothing inputted at all by the user. ChatGPT suggested I use .trim() function to handle any open white space. 
