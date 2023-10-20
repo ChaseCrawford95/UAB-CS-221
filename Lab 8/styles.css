@@ -1,0 +1,199 @@
+/*This part deals with the body*/
+* {
+    margin: 0;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    height: -5px;
+} 
+
+::-webkit-scrollbar-thumb{
+    background: #FF2079;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #04005E;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: 15%;
+    grid-template-rows: auto;
+    background-color: #04005E;
+    height: 100vh;
+   
+}
+
+/* Any h1 tag manipulation happens here*/
+h1{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-decoration: overline;
+    text-decoration-color: #FF2079;
+    color: #FF2079;
+}
+/* Any h3 tag manipulation happens here*/
+h2{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FF2079;
+}
+/* Any h4 tag manipulation happens here*/
+h3{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#FF2079
+}
+header{
+    grid-column: 2 / span 2;
+    padding: 10px;
+    
+}
+/* The side nav gets a special id so that it can be manipulated separately from the other list tags*/
+#SideNav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-row: 2;
+    grid-column: 1;
+    background-color: #FF2079;
+    height: 100%;
+    grid-row-start: 1;
+    grid-row-end: 10;
+    text-align: center;
+}
+
+#SideNav li{
+    text-align: center;
+    list-style-type: none;
+}
+#SideNav a{
+    display: block;
+    color: whitesmoke;
+    padding: 10px 10px;
+    text-decoration: none;
+    transition: all 0.3s ease 0.1s;
+    text-align: center;
+}
+#SideNav a.active{
+    background-color: blueviolet;
+}
+#SideNav a:hover{
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    transform: scale(1.2);
+    font-size: large;
+    
+}
+#content{
+    grid-row: 2;
+    grid-column: 2;
+    padding: 20px;
+}
+
+/* This is the manipulation spot for the skills list on the About me page*/
+#skills_list{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+/* This is the manipulation spot for the hobbies list on the About me page*/
+#hobbies_list{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+/* This is the manipulation of the profile picture on the about me page*/
+#profile_picture{
+    border-radius: 10px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 2;
+    width: 220px;
+    height: 220px;
+    margin-left: 10px;
+}
+/* This is the mainpulation of the divider line on the About me page*/
+.decorative-line{
+    
+    height: 2px;
+    border-color: blueviolet;
+    background-color: blueviolet;
+    margin: 0;
+}
+/* This will determine what the overall paragarph will look like*/
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* This will determine what the overall anchor tags will look like*/
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:underline;
+    text-decoration-color: darkmagenta;
+    color: blueviolet;
+/* This is the manipulation of project list on the Personal project page*/
+}
+#project_list li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkmagenta;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    grid-column-start:1 ;
+    grid-column-end:3 ;
+    grid-row: 5;
+    bottom: 0;
+    width: 100%;
+    font-size: x-small;
+}
+input{
+    background-color: #d8d8d8;
+}
+textarea{
+    background-color: #d8d8d8;
+}
+
+@media  (max-width: 480px) {
+    *{
+        font-size: 16px;
+    }
+    #SideNav{
+        background-color: green;
+    }
+}
+
+@media   (max-width: 768px) {
+    *{
+        font-size: 16px;
+    }
+    #SideNav{
+        background-color: red;
+    }
+}
+
+@media  (max-width: 1024px) {
+    *{
+        font-size: 16px;
+    }
+    #SideNav{
+        background-color: blue;
+    }
+}
+
+
+/* Sources */
+/* Creation of the Menu Navigation Bar was in help from this website: https://www.w3schools.com/css/css_navbar.asp *
+/* W3Schools was in help with how to figure out positioning of sectors */
+/* W3Schools was in help with how to make lists be shown in matrix/grid format
+/* W3Schools was in help with how to make a decorative line that divides Profile picture and profile content*/
+/* W3Schools was in help with adding in animations and transitions with the side nav bar*/
+/* I wanted to figure out how to make custom scroll bars so I found out how to change it from this website(standard scroll bars are BAAAASIC... eww): https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp*/
+
