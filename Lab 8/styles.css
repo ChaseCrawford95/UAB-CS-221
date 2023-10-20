@@ -8,7 +8,7 @@
 } 
 
 ::-webkit-scrollbar-thumb{
-    background: #FF2079;
+    background: #B537F2;
     border-radius: 10px;
 }
 
@@ -18,13 +18,13 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #04005E;
+    background-color: #33135C;
 }
 .grid_container{
     display: grid;
     grid-template-columns: 15%;
     grid-template-rows: auto;
-    background-color: #04005E;
+    background-color: #33135C;
     height: 100vh;
    
 }
@@ -34,20 +34,20 @@ h1{
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     text-decoration: overline;
-    text-decoration-color: #FF2079;
-    color: #FF2079;
+    text-decoration-color: #B537F2;
+    color: #3CB9FC;
 }
 /* Any h3 tag manipulation happens here*/
 h2{
     font-size: x-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #FF2079;
+    color: #3CB9FC;
 }
 /* Any h4 tag manipulation happens here*/
 h3{
     font-size: x-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:#FF2079
+    color:#3CB9FC
 }
 header{
     grid-column: 2 / span 2;
@@ -59,7 +59,7 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     grid-row: 2;
     grid-column: 1;
-    background-color: #FF2079;
+    background-color: #B537F2;
     height: 100%;
     grid-row-start: 1;
     grid-row-end: 10;
@@ -101,6 +101,7 @@ header{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 10px;
+    color: #3CB9FC;
 }
 /* This is the manipulation spot for the hobbies list on the About me page*/
 #hobbies_list{
@@ -108,6 +109,10 @@ header{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 10px;
+}
+
+#bio p{
+    color: #3CB9FC;
 }
 
 /* This is the manipulation of the profile picture on the about me page*/
@@ -128,6 +133,19 @@ header{
     background-color: blueviolet;
     margin: 0;
 }
+#PhoneNumber{
+    color: #3CB9FC;
+}
+
+#mailing{
+    color: #3CB9FC;
+}
+
+#mailingAddress{
+    color: #3CB9FC;
+}
+
+
 /* This will determine what the overall paragarph will look like*/
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -137,12 +155,15 @@ a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration:underline;
     text-decoration-color: darkmagenta;
-    color: blueviolet;
+    color: #3CB9FC;
 /* This is the manipulation of project list on the Personal project page*/
 }
 #project_list li{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: darkmagenta;
+    color: #B537F2;
+}
+#project_list p{
+    color: #3CB9FC;
 }
 footer{
     padding: 10px;
