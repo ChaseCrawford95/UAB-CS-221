@@ -472,4 +472,4 @@ function DishScore(){
 // ChatGPT helped me moddify my directsearch function to make it where it can effectively search for the item requested. This bit of the if statement: ButtonItem.value.toLowerCase().includes(text.toLowerCase())
 // Some images are sourced from the website https://unsplash.com/. For the sake of college project submission I must state I do not own these images.
 // Some images are sourced from the website https://www.istockphoto.com/.  For the sake of college project submission I must state I do not own these images.
-// The ingredients lists and how to make steps were sourced from ChatGPT. For the saek of college preojct submission I must state I do not own these recipes and or creation methods.
+// The ingredients lists and how to make steps were sourced from ChatGPT. For the sake of college project submission I must state I do not own these recipes and or creation methods.
