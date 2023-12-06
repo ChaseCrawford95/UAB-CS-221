@@ -1,3 +1,4 @@
+// This is the blueprint for the dish items
 class Item{
     constructor(picture,name,ingrediants,how2make,attribute1,attribute2,attribute3,attribute4,attribute5,attribute6, attribute7){
         this.picture = picture;
@@ -13,6 +14,7 @@ class Item{
         this.attribute7 = attribute7;
     }
 }
+// This is where all of the dish items pictures will be placed
 var FoodPicture = [
     "https://plus.unsplash.com/premium_photo-1672846027109-e2c91500afef?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "https://images.unsplash.com/photo-1593619566002-8bf042dd1cfb?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -42,6 +44,7 @@ var FoodPicture = [
     "https://images.unsplash.com/photo-1627286400579-027de47e9e73?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?q=80&w=1794&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ]
+// This is where all of the ingredients will be places
 var Item1Ingre = ["1 cup all-purpose flour", "2 tablespoons sugar", "1 teaspoon baking powder","1/2 teaspoon baking soda","1/4 teaspoon salt","3/4 to 1 cup buttermilk (or regular milk)","1 large egg","2 tablespoons melted butter or vegetable oil","Optional: 1 teaspoon vanilla extract","Chocolate chips, blueberries, sliced bananas, or other mix-ins as desired."]
 var Item2Ingre = ["2 to 4 large eggs (adjust based on your preference and the number of servings)", "2 tablespoons milk or cream (optional, for creamier eggs)", "Salt and pepper, to taste","1 tablespoon butter or cooking oil (for cooking)","Shredded cheese, chopped herbs (e.g., chives, parsley), diced tomatoes, or other vegetables of your choice"]
 var Item3Ingre = ["2 cups all-purpose flour", "2 tablespoons sugar", "1 tablespoon baking powder","1/2 teaspoon salt","1 3/4 cups milk","1/3 cup vegetable oil or melted butter","2 large eggs","1 teaspoon vanilla extract"]
@@ -69,7 +72,7 @@ var Item24Ingre = ["1 pound large shrimp, peeled and deveined","4 tablespoons un
 var Item25Ingre = ["1 cup coconut flour","1 cup coconut milk","1 cup water","1/4 teaspoon salt","Mixed salad greens (lettuce, spinach, arugula)","Shredded carrots","Cucumber, julienned","Red bell pepper, thinly sliced","Avocado, sliced","Fresh herbs (mint, cilantro, basil)","Sesame seeds for garnish","3 tablespoons soy sauce or tamari (for a gluten-free option)","1 tablespoon rice vinegar","1 tablespoon maple syrup or agave nectar","1 teaspoon sesame oil","1 clove garlic, minced","1 teaspoon grated ginger"]
 var Item26Ingre = ["8 ounces (about 225g) of spaghetti (check for dairy-free options)","2 tablespoons olive oil","1 medium onion, finely chopped","2 cloves garlic, minced","1 can (28 ounces) crushed tomatoes","1 teaspoon dried oregano","1 teaspoon dried basil","1/2 teaspoon red pepper flakes (optional, for some heat)","Salt and black pepper to taste","Fresh basil or parsley for garnish (optional)"]
 var Item27Ingre = ["1 pound ground beef","1 small onion, finely chopped","2 cloves garlic, minced","1 tablespoon chili powder","1 teaspoon cumin","1/2 teaspoon paprika","1/2 teaspoon oregano","Salt and pepper to taste","1/2 cup beef broth","Taco shells or tortillas","Shredded lettuce","Diced tomatoes","Shredded cheese (cheddar or Mexican blend)","Sour cream","Salsa","Chopped cilantro","Lime wedges"]
-
+// This is where all of the "how to make" steps will be placed
 var Item1how2make = ["In a large mixing bowl, whisk together the dry ingredients.", "In another bowl, whisk together the wet ingredients","Pour the wet ingredients into the dry ingredients and stir until just combined. It's okay if there are a few lumps","Heat a griddle or non-stick skillet over medium heat. Grease it with a bit of butter or oil","Pour 1/4 cup portions of batter onto the griddle for each pancake","Cook until bubbles form on the surface of the pancake and the edges look set","Flip the pancake and cook until the other side is golden brown","Repeat with the remaining batter"];
 var Item2how2make = ["Crack the eggs into a bowl", "Whisk the eggs with a fork or whisk until the yolks and whites are well combined","If using, add the milk or cream to the beaten eggs","Season with salt and pepper to taste","Heat a non-stick skillet or frying pan over medium-low heat","Add the butter or cooking oil to the pan and let it melt or heat","Pour the beaten eggs into the pan","Allow the eggs to set slightly on the bottom, and then gently stir with a spatula","Continue stirring occasionally, allowing the eggs to cook evenly","If using any optional add-ins like cheese, herbs, or vegetables, add them when the eggs are partially set","Cook until the eggs are no longer runny but still moist. Be careful not to overcook","Transfer the scrambled eggs to a plate immediately","Garnish with additional herbs or toppings if desired"];
 var Item3how2make = ["Preheat your waffle iron according to the manufacturer's instructions", "In a large mixing bowl, whisk together the flour, sugar, baking powder, and salt","In another bowl, whisk together the milk, vegetable oil or melted butter, eggs, and vanilla extract","Pour the wet ingredients into the bowl with the dry ingredients","Stir until just combined. It's okay if there are a few lumps; overmixing can make the waffles tough","Once the waffle iron is hot, lightly grease it with cooking spray or a small amount of oil","Pour an appropriate amount of batter onto the center of the preheated waffle iron, spreading it evenly","Close the waffle iron and cook according to the manufacturer's instructions, usually for about 5 minutes, until the waffles are golden brown and crisp","Carefully remove the waffles from the iron and place them on a plate","Repeat the process with the remaining batter","Serve the waffles warm with your favorite toppings, such as maple syrup, whipped cream, fresh fruit, or a dusting of powdered sugar"];
@@ -97,7 +100,7 @@ var Item24how2make = ["Ensure the shrimp are peeled and deveined. Pat them dry w
 var Item25how2make = ["In a bowl, mix the coconut flour, coconut milk, water, and salt until you have a smooth batter","Heat a non-stick skillet over medium heat. Pour a small amount of the batter onto the skillet, spreading it thinly to make a round wrap","Cook for 1-2 minutes on each side until the edges start to crisp. Repeat with the remaining batter","In the center of each coconut wrap, layer a handful of mixed salad greens, shredded carrots, julienned cucumber, sliced red bell pepper, avocado slices, and fresh herbs","In a small bowl, whisk together soy sauce, rice vinegar, maple syrup, sesame oil, minced garlic, and grated ginger","Drizzle the sauce over the filling in each wrap","Sprinkle sesame seeds on top","Fold in the sides of the coconut wrap and then roll it up, securing the ends","Slice the wraps in half diagonally and serve immediately"]
 var Item26how2make = ["Bring a large pot of salted water to a boi","Cook the spaghetti according to the package instructions until al dente","Drain and set aside","In a large skillet, heat the olive oil over medium heat","Add the chopped onion and cook until it becomes translucent, about 3-5 minutes","Add the minced garlic and cook for an additional 1-2 minutes until fragrant","Pour in the crushed tomatoes, dried oregano, dried basil, and red pepper flakes (if using)","Season with salt and black pepper to taste","Stir the sauce well and bring it to a simmer","Reduce the heat to low and let the sauce simmer for about 15-20 minutes, allowing the flavors to meld and the sauce to thicken","Once the sauce has reached your desired consistency, add the cooked spaghetti to the skillet","Toss the spaghetti in the sauce until well coated and heated through","Transfer the spaghetti and sauce to serving plates","Garnish with fresh basil or parsley if desired"]
 var Item27how2make = ["In a large skillet over medium heat, cook the ground beef until browned and cooked through, breaking it apart with a spoon as it cooks","Drain excess fat if necessary","Add chopped onions and garlic to the skillet, and sauté until the onions are soft and translucent","Stir in the chili powder, cumin, paprika, oregano, salt, and pepper. Cook for an additional 2-3 minutes to allow the spices to meld with the meat","Pour in the beef broth, and let it simmer until the mixture thickens slightly. Adjust seasoning to taste.","While the beef is cooking, prepare your taco toppings. Dice tomatoes, shred lettuce, grate cheese, and chop cilantro. Place these ingredients in separate bowls for easy assembly","Warm the taco shells or tortillas according to package instructions","Spoon the seasoned beef mixture into each taco shell","Add your desired toppings: lettuce, tomatoes, cheese, sour cream, salsa, and cilantro","Serve the beef tacos with lime wedges on the side for squeezing over the top"]
-
+// This is the instances of the class will be placed. These are the individual dishes are created
 var item1 = new Item(FoodPicture[0],"Pancakes",Item1Ingre,Item1how2make,"Breakfast","Has Gluten","Non-Vegetarian","Non-Keto","Non-Vegan","Dairy-Free","Nut-Free");
 const item2 = new Item(FoodPicture[1],"Scrambled Eggs",Item2Ingre,Item2how2make,"Breakfast","Has Gluten","Vegetarian","Keto","Non-Vegan","Dairy-Free","Nut-Free");
 const item3 = new Item(FoodPicture[2],"Waffles", Item3Ingre,Item3how2make,"Breakfast","Has Gluten","Non-Vegetarian","Non-Keto","Non-Vegan","Has Dairy","Nut-Free");
@@ -130,7 +133,7 @@ AllItems.push(item1,item2,item3,item4,item5,item6,item7,item8,item9,item10,item1
     item17,item18,item19,item20,item21,item22, item23,item24,item25,item26, item27);
 console.log(AllItems)
 
-
+// This is the references of all of the checkboxes and radiobuttons
 const checkbox1 = document.getElementById("checkbox1");
 const checkbox2 = document.getElementById("checkbox2");
 const checkbox3 = document.getElementById("checkbox3");
@@ -145,7 +148,7 @@ const radiobutton4 = document.getElementById("radiobutton4");
 const allRadioButtons = [radiobutton1,radiobutton2,radiobutton3,radiobutton4]
 const allCheckBoxes = [checkbox1,checkbox2,checkbox3,checkbox4,checkbox5,checkbox6]
 
-
+// This is the references of all of the regular buttons
 const button1 = document.getElementById("Pancakes")
 const button2 = document.getElementById("ScrambledEggs")
 const button3 = document.getElementById("Waffles")
@@ -177,13 +180,13 @@ var AllDishButtons = []
 AllDishButtons.push(button1,button2,button3,button4,button5,button6,button7,button8,button9,button10,button11,
     button12,button13,button14,button15,button16,button17,button18,button19,button20,button21,button22,button23,
     button24,button25,button26,button27)
-
+// This is the spot of the initial hashmap that will be updated once the Filter function has been completed
 var HashMap1 = new Map()
 
 var UpdatedAllItems = []; 
-
+// This is the reference of the grid on the main page. It is where all of the dish buttons will be displayed
 var imageGrid = document.getElementById("imageGrid");
-
+// This function helps to show the checkboxes on the second drop down menu on the main page. 
 var expanded = false;
 function showCheckboxes(){
     var checkboxes = document.getElementById("checkboxes");
@@ -196,7 +199,7 @@ function showCheckboxes(){
         expanded = false;
     }
 }
-
+// This function helps to show the radio buttons on the first drop down menu of the main page
 var pressed = false;
 function showRadiobuttons(){
     var radioButtons = document.getElementById("radioButtons");
@@ -209,7 +212,7 @@ function showRadiobuttons(){
         pressed = false;
     }
 }
-
+// This function helps with the direct search of an item in the program
 function directSearch(text){
     imageGrid.innerHTML = "";
     test.innerHTML = ""
@@ -235,7 +238,7 @@ function directSearch(text){
         }
     }
 }
-
+// This function is the logic behind every radio button on the first drop down menu on the main page
 function WhatTypeOfDish(value){
     HashMap1.clear();
     UpdatedAllItems.length = 0
@@ -323,7 +326,8 @@ function WhatTypeOfDish(value){
     }
     console.log(UpdatedAllItems)
 }
-
+// This function handles the filtering operations. Its a scoring system on what closely matches the users preferences.
+// Once this function is done, the initial hashmap gets udpated
 function Filter(attribute, name, HashMap1, UserFilterInputs){
     imageGrid.innerHTML = "";
     test.innerHTML = "";
@@ -336,7 +340,9 @@ function Filter(attribute, name, HashMap1, UserFilterInputs){
     }
     return  HashMap1.set(name,score);
 }
-
+// This function monitors which checkbox is pushed and will then call the Filter function above. Once the Filter function is
+// done, this function will then sort the intitial hashmap and then place the corresponding dish objects into an array. This
+// function will then call the changeHTML function and input the array
 function updateSelectedValues(value) {
     const selectedValues = [];
     if(checkbox1.checked){
@@ -379,7 +385,7 @@ function updateSelectedValues(value) {
      changeHTML(TopFilteredChoices,AllDishButtons,imageGrid);
 
   }
-
+// This function takes in the array from the updatedSelectedValues function and will then place the dishes onto the grid onto the main page
 function changeHTML(Array, AllDishButtons, imageGrid) {
     imageGrid.innerHTML = "";
     for (const item of Array) {
@@ -389,7 +395,8 @@ function changeHTML(Array, AllDishButtons, imageGrid) {
         }
     }
 }
-
+// This function will handle what happens when the user clicks on a dish item on the main page. It will take the user to another
+// page and will then populate the page with data that pertains only to the dish item that was selected.
 function DishProfilePage(value) {
     var inputInstance;
     for (var i = 0; i < AllItems.length; i++) {
@@ -449,7 +456,7 @@ function DishProfilePage(value) {
         }
     }
 }
-
+// This function covers the logic behind the rate button on the Dish Profile page. 
 function DishScore(){
     let input = prompt("From 1 to 5 how would you rate this dish?");
     document.getElementById("PromptText").innerHTML = input
