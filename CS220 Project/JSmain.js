@@ -3,6 +3,9 @@
 // The user can also choose aditional filtering selections to fine tune what type of dishes they would like to browse through.
 // Once the user has selected a dish, a page will display all of the ingredients necessary to create that dish as well as the
 // instructions on how to make it.
+// Chase Crawford did the Backend development
+// Jonah Higgins did the Frontend development
+// Connor Guess did the Frontend development
 
 // This is the blueprint for the dish items
 class Item{
