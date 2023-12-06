@@ -1,8 +1,9 @@
 // This program is designed to be a dynamic food/recipe browser. The user can choose a selection of either Breakfast, Lunch, Dinner to see
 // what types of food items this program has on hand. The user can choose a fourth option to display all of the choices the program has to offer.
 // The user can also choose aditional filtering selections to fine tune what type of dishes they would like to browse through.
-// Once the user has selected a dish, a page will display all of the ingredients necessary to create that dish as well as the
-// instructions on how to make it.
+// If the user wants to search for a specific dish, they can use the search bar on the main menu Once the user has selected a dish, 
+// a page will display all of the ingredients necessary to create that dish as well as the instructions on how to make it.
+
 // Chase Crawford did the Backend development
 // Jonah Higgins did the Frontend development
 // Connor Guess did the Frontend development
