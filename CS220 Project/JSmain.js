@@ -1,3 +1,9 @@
+// This program is designed to be a dynamic food/recipe browser. The user can choose a selection of either Breakfast, Lunch, Dinner to see
+// what types of food items this program has on hand. The user can choose a fourth option to display all of the choices the program has to offer.
+// The user can also choose aditional filtering selections to fine tune what type of dishes they would like to browse through.
+// Once the user has selected a dish, a page will display all of the ingredients necessary to create that dish as well as the
+// instructions on how to make it.
+
 // This is the blueprint for the dish items
 class Item{
     constructor(picture,name,ingrediants,how2make,attribute1,attribute2,attribute3,attribute4,attribute5,attribute6, attribute7){
